@@ -8,7 +8,7 @@ The script was write to run on Google Colab. For those who need to run it locall
 
 **Usage** 
 
-You can directly copy the code from and run on Google Colab, or adjust the doc placement code part and run on your own computer
+You can directly copy the code from and run [Run.py](https://github.com/Chaoshcx/roi-estimate/blob/main/Run.py) on Google Colab, or adjust the doc placement code part and run on your own computer
 
 **Process**
 

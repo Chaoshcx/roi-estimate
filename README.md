@@ -7,9 +7,11 @@ For this task, Gaussian Process Regression and Polynomial Regression (up to cubi
 The script was write to run on Google Colab. For those who need to run it locally, adjust the file reading and storage path modules accordingly.
 
 **Usage** 
+
 You can directly copy the code from and run on Google Colab, or adjust the doc placement code part and run on your own computer
 
 **Process**
+
 ![](https://github.com/Chaoshcx/roi-estimate/blob/main/process.png)
 
 **Examples**

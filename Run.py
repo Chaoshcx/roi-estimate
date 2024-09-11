@@ -87,9 +87,9 @@ def compute_weighted_average_optimized():
         best_budget = None
         best_days = None
 
-        # 减少搜索点数量
-        for budget_value in np.linspace(budget_scaled.min(), budget_scaled.max(), 20):  # 从100减少到20
-            for days_value in np.linspace(days_scaled.min(), days_scaled.max(), 20):    # 从100减少到20
+        # 搜索点数量
+        for budget_value in np.linspace(budget_scaled.min(), budget_scaled.max(), 20):  # 20个搜索点，自行调整
+            for days_value in np.linspace(days_scaled.min(), days_scaled.max(), 20):    # 20个搜索点，自行调整
                 input_features = np.hstack((
                     np.array([[budget_value]]),
                     np.array([[days_value]]),
@@ -148,11 +148,9 @@ results.to_excel('predicted_vs_actual_roi.xlsx', index=False)
 from google.colab import files
 files.download('predicted_vs_actual_roi.xlsx')
 
-#@title 模型训练 Option2 随机森林回归 (Random Forest Regression) - 4
-
 import matplotlib.pyplot as plt
 
-def plot_roi_changes_fixed_budget(budget=800000, days_range=(1, 14)): #日均预算80万，投放天数1-14
+def plot_roi_changes_fixed_budget(budget=800000, days_range=(1, 14)): #自定义日均预算80万，投放天数1-14
     """
     绘制固定预算条件下，不同投放天数下的 ROI 变化。
     
@@ -186,7 +184,7 @@ def plot_roi_changes_fixed_budget(budget=800000, days_range=(1, 14)): #日均预
     plt.show()
 
 # 调用函数
-plot_roi_changes_fixed_budget(budget=800000, days_range=(1, 14))
+plot_roi_changes_fixed_budget(budget=800000, days_range=(1, 14)) #这里自定义单日的budget
 
 def plot_roi_changes_fixed_days(days=6, budget_range=(100000, 1000000, 100000)):
     """
@@ -222,4 +220,4 @@ def plot_roi_changes_fixed_days(days=6, budget_range=(100000, 1000000, 100000)):
     plt.show()
 
 # 调用函数
-plot_roi_changes_fixed_days(days=6, budget_range=(100000, 1000000, 100000))
+plot_roi_changes_fixed_days(days=6, budget_range=(100000, 1000000, 100000)) #范围10-100万，最小单位为10万

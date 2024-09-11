@@ -20,7 +20,7 @@ Colab用户直接复制Run.py的代码执行即可（超参数调整在代码里
 
 **Process**
 
-![](https://github.com/Chaoshcx/roi-estimate/blob/main/process.png)
+![](https://github.com/Chaoshcx/roi-estimate/blob/main/process1.png)
 
 **Examples**
 RF model predict

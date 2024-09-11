@@ -1,4 +1,4 @@
-Random forest algorithm to estimate maximum ROI solution on media investment
+***Use Random forest (RF) to estimate maximum ROI solution on media investment***
 
 A previous requirement involved always-on conversion advertising projects where clients often asked, "How should I allocate my daily budget? How long should a set of creatives run on a specific ad platform?" In the past, without detailed calculations, the operations team would provide a rather vague experiential value (such as ￥800,000 per day, and a set of creatives running for 14 days). However, after accumulating a certain amount of data, we could attempt to use algorithms to complete this prediction (or summarization), thus providing more precise answers.
 

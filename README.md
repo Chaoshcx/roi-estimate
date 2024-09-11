@@ -15,3 +15,18 @@ You can directly copy the code from and run [Run.py](https://github.com/Chaoshcx
 ![](https://github.com/Chaoshcx/roi-estimate/blob/main/process.png)
 
 **Examples**
+RF model predict
+
+![](https://github.com/Chaoshcx/roi-estimate/blob/main/examples/Model%20performance%20RF.png)
+
+Polynomial model predict
+
+![](https://github.com/Chaoshcx/roi-estimate/blob/main/examples/Model%20performance%20Polynomial%20.png)
+
+ROI trend based on certain budget
+
+![](https://github.com/Chaoshcx/roi-estimate/blob/main/examples/ROI%20trend1.png)
+
+ROI trend based on certain days
+![](https://github.com/Chaoshcx/roi-estimate/blob/main/examples/ROI%20trend2.png)
+
